@@ -1,0 +1,2 @@
+# End-to-End Cricket Data Analytics Using Python and Power BI
+This project focuses on analyzing T20 World Cup cricket data using a complete data analytics pipeline. It involves web scraping data from the ESPN Cricinfo website using Python, cleaning and transforming the data with Pandas, and finally visualizing key insights using Power BI. The objective is to derive meaningful insights such as top-performing players, team comparisons, and building the best playing XI.
