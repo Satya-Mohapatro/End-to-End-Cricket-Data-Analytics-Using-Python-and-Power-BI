@@ -1,6 +1,6 @@
-# 🏏 Cricket Data Analytics: T20 World Cup Insights using Python & Power BI
+# 🏏 Cricket Data Analytics: T20 World Cup Insights using Python, Bright Data & Power BI
 
-This project demonstrates an end-to-end sports data analytics pipeline using **Python, Pandas, Web Scraping**, and **Power BI**. We extract real-time cricket data from **ESPN Cricinfo**, transform it using **Pandas**, and create interactive dashboards in **Power BI** to uncover insights from the **T20 World Cup**.
+This project demonstrates an end-to-end sports data analytics pipeline using **Bright Data for web scraping**, **Python + Pandas for data transformation**, and **Power BI for visualization**. We extract real-time cricket data from **ESPN Cricinfo**, process it, and create insightful dashboards based on **T20 World Cup** matches.
 
 ---
 
@@ -15,65 +15,63 @@ This project demonstrates an end-to-end sports data analytics pipeline using **P
 
 ## 📊 Project Overview
 
-The goal of this project is to analyze the performance of players and teams in the T20 World Cup using a real dataset. This includes:
+The goal of this project is to analyze the performance of players and teams in the T20 World Cup. It includes:
 
-- Scraping cricket match and player data from [ESPN Cricinfo](https://www.espncricinfo.com)
-- Cleaning and structuring the data using Python and Pandas
-- Creating an interactive Power BI dashboard to visualize trends and insights
-- Identifying top batsmen, bowlers, and the best playing XI
+- Scraping match and player data from [ESPN Cricinfo](https://www.espncricinfo.com) using **Bright Data**
+- Structuring and analyzing data with **Pandas**
+- Creating an interactive **Power BI** dashboard for insights
+- Highlighting top players, match results, and team trends
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python** – for web scraping and data processing
-- **Pandas** – for data manipulation and transformation
-- **Power BI** – for data modeling and dashboard creation
-- **Jupyter Notebook / VSCode** – for development and testing
+- **Bright Data** – for high-speed, reliable web scraping
+- **Python** – for data processing and scripting
+- **Pandas** – for data manipulation
+- **Power BI** – for data modeling and visualization
+- **Jupyter Notebook / VSCode** – for development
 
 ---
 
 ## 🌐 Data Source
 
-- Match data was scraped from [ESPN Cricinfo T20 World Cup section](https://www.espncricinfo.com)
-- Includes player statistics (batting, bowling), team scores, and match results
+- Scraped from the **T20 World Cup pages** on [ESPN Cricinfo](https://www.espncricinfo.com)
+- Data includes player scorecards, match results, team performance, etc.
 
 ---
 
 ## 🔄 Project Workflow
 
-1. **Web Scraping**  
-   - Use `requests` and `BeautifulSoup` to fetch HTML content
-   - Extract tables for batting and bowling scorecards
+1. **Web Scraping (Bright Data)**  
+   - Used Bright Data’s infrastructure to access and extract structured data
+   - Automated extraction of player and match-level statistics
 
 2. **Data Cleaning & Transformation**  
-   - Parse and clean data using `Pandas`
-   - Merge, filter, and reshape datasets into analysis-ready format
+   - Handled inconsistencies and formatting issues using `Pandas`
+   - Consolidated multiple matches into unified datasets
 
-3. **Power BI Integration**  
-   - Import cleaned `.csv` files into Power BI
-   - Build relationships and KPIs (Runs, Wickets, Strike Rates, etc.)
-   - Create dynamic visuals and dashboards
+3. **Data Visualization**  
+   - Imported cleaned `.csv` files into Power BI
+   - Created interactive charts, filters, and summaries
 
 ---
 
-## 📈 Power BI Dashboard
+## 📈 Power BI Dashboard Features
 
-The Power BI dashboard includes:
 - Top Batsmen by Runs & Strike Rate
-- Best Bowlers by Economy & Wickets
-- Team-wise Performance Summary
-- Most Valuable Player (MVP)
-- Filterable match-by-match statistics
+- Best Bowlers by Wickets & Economy
+- Team Comparison Table
+- Most Valuable Player (MVP) Metrics
+- Filter by Team, Match, or Player
 
 ---
 
 ## 💡 Key Insights
 
-- Top-performing players across the tournament
-- Team comparisons based on aggregated statistics
-- Identification of consistent match-winners
-- MVP-based selection for the Best Playing XI
+- Top 5 players in each category (runs, wickets, strike rate)
+- Match-winning contributions
+- Team consistency across the tournament
+- Best Playing XI based on overall stats
 
 ---
-
